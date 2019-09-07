@@ -1,0 +1,13 @@
+<!--pages/flex/demo-flex.wxml-->
+<text>pages/flex/demo-flex.wxml</text>
+<text style='color:red;'>helloworld</text>
+<view class='flex-container'>
+  <view class='flex-header'></view>
+  <view class='flex-content'>
+    <view class='flex-navbar'></view>
+    <view class='flex-main'>
+      <view class='ball'><text>1</text></view>
+    </view>
+  </view>
+  <view class='flex-footer'></view>
+</view>

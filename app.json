@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/flex/flex",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/flex/demo-flex"
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",

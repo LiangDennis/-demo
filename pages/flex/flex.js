@@ -1,4 +1,4 @@
-// pages/flex/demo-flex.js
+// pages/flex/flex.js
 Page({
 
   /**

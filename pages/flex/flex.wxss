@@ -1,0 +1,19 @@
+@import '../css/mycss.wxss';
+/* pages/flex/demo-flex.wxss */
+
+.flex-content .flex-main {
+  position: relative;
+}
+.ball {
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #ace;
+  border-radius: 25rpx;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
