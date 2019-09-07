@@ -29,3 +29,15 @@
   color:blue;
   font-size: 30rpx;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 500rpx;
+  background-color: blue;
+}
+.flex-content {
+  display: flex;
+  flex-direction: row;
+}
