@@ -11,4 +11,7 @@
     <text class="user-motto">{{motto}}</text>
     <text>你好世界！</text>
   </view>
+  <!-- hover-class与class是不能混合的 -->
+  <view hover-class='hover-class-style' class='testout'>我是一个views</view>
+  <view class='test1-style'>使用页内样式</view>
 </view>
