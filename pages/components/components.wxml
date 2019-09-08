@@ -51,4 +51,14 @@
   <text style='width:100%;height:100rpx;background-color:greenyellow'>\n{{avatarUrl}}</text>
   <!-- 获取用户信息 -->
   <button size='mini' type='warn' open-type='getUserInfo' bindgetuserinfo='onbindgetUserInfo'>getUserInfo</button>
+  <!-- 客服信息 -->
+  <button size='mini' type='warn' open-type='contact' bindgetuserinfo='onbindgetUserInfo'>contact</button>
+  <!-- 分享 -->
+  <button size='mini' type='warn' open-type='share' bindgetuserinfo='onbindgetUserInfo'>share</button>
+  <!-- 获取手机号码，默认本人不可获取 -->
+  <button size='mini' type='warn' open-type='getPhoneNumber' bindgetuserinfo='onbindgetUserInfo'>getPhoneNumber</button>
+  <!-- 开启设置，没有APPID不可使用 -->
+  <button size='mini' type='warn' open-type='openSetting' bindgetuserinfo='onbindgetUserInfo'>openSetting</button>
+  <!-- 打开微信反馈 -->
+  <button size='mini' type='warn' open-type='feedback' bindgetuserinfo='onbindgetUserInfo'>feedback</button>
 </view>
