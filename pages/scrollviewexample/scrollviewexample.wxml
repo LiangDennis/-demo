@@ -1,0 +1,12 @@
+<!--pages/scrollviewexample/scrollviewexample.wxml-->
+<view class="view-body">
+  <scroll-view scroll-y="true" class="scroll-style">
+    <block wx:for="{{openEyeHome}}" wx:key="index">
+      <view class="view-item" style="background:url({{item.image}}) center center;background-size:cover;">
+        <image src="{{item.icon}}" class="image-style"></image>
+        <text class="text-title center-style">{{item.title}}</text>
+        <text class="text-slogan center-style">{{item.slogan}}</text>
+      </view>
+    </block>
+  </scroll-view>
+</view>

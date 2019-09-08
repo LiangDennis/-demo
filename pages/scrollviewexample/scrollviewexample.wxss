@@ -1,0 +1,47 @@
+/* pages/scrollviewexample/scrollviewexample.wxss */
+
+.view-body {
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+/* 滚动条样式 */
+.scroll-style {
+  height: 100%;
+  width: 100%;
+}
+/* 各个item样式 */
+.view-item {
+  width: 100%;
+  height: 400rpx;
+  position: relative;
+}
+/* title样式 */
+.text-title {
+  color: white;
+  width: 100%;
+  font-size: 40rpx;
+
+  position: absolute;
+  top: 100rpx;
+  text-align: center;
+}
+.text-slogan {
+  color: white;
+  font-size: 26rpx;
+  width: 100%;
+
+  position: absolute;
+  top: 150rpx;
+  text-align: center;
+}
+/* 图片样式 */
+.image-style {
+  width: 100rpx;
+  height: 100rpx;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -50rpx;
+}
