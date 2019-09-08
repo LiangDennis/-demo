@@ -1,0 +1,23 @@
+/* pages/components/components.wxss */
+
+input {
+  background-color: #bbb;
+  height: 80rpx;
+  color: white;
+  padding-left: 30rpx;
+  font-size: 30rpx;
+  border-radius: 10rpx;
+  width: 80%;
+}
+
+button {
+  background-color: greenyellow;
+  margin: 0 10rpx;
+  color: white;
+}
+
+.hover-class-style {
+  /* background-color: blue; */
+  opacity: 0.5;
+  color: black;
+}

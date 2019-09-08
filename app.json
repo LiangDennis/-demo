@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/components/components",
+    "pages/xiecheng/xiecheng",
     "pages/flex/flex",
     "pages/index/index",
     "pages/logs/logs"

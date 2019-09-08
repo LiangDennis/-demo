@@ -1,0 +1,51 @@
+<!--pages/xiecheng/xiecheng.wxml-->
+<view class='flex-box'>
+  <view class='item' id='one'>
+    <view class='img'>
+      <text>酒店\n</text>
+      <image src='../images/周冬雨.jpg' style='width:100rpx;height:100rpx;'></image>
+    </view>
+    <view class='text'>
+      <view>
+        <text>海外酒店</text>
+        <text>团购</text>
+      </view>
+      <view>
+        <text>特价酒店</text>
+        <text>民宿酒店</text>
+      </view>
+    </view>
+  </view>
+  <view class='item' id='two'>
+    <view class='img'>
+      <text>酒店\n</text>
+      <image src='../images/周冬雨.jpg' style='width:100rpx;height:100rpx;'></image>
+    </view>
+    <view class='text'>
+      <view>
+        <text>海外酒店</text>
+        <text>团购</text>
+      </view>
+      <view>
+        <text>特价酒店</text>
+        <text>民宿酒店</text>
+      </view>
+    </view>
+  </view>
+  <view class='item' id='three'>
+    <view class='img'>
+      <text>酒店\n</text>
+      <image src='../images/周冬雨.jpg' style='width:100rpx;height:100rpx;'></image>
+    </view>
+    <view class='text'>
+      <view>
+        <text>海外酒店</text>
+        <text>团购</text>
+      </view>
+      <view>
+        <text>特价酒店</text>
+        <text>民宿酒店</text>
+      </view>
+    </view>
+  </view>
+</view>

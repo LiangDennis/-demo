@@ -1,0 +1,54 @@
+<!--pages/components/components.wxml-->
+
+<!-- text组件 -->
+<view>
+  <!-- 使用/n来换行 -->
+  <text>我是\n第一个文本\n</text>
+  <text>{{title}}\n</text>
+  <!-- wx:if=""与hidden属性的比较 -->
+  <!-- hidden与display:none;作用相同 -->
+  <text wx:if="{{isshow}}">{{ishow}}我是第三个文本\n</text>
+  <text hidden='hidden'>我是第四个文本\n</text>
+</view>
+
+<!-- image组件 -->
+<view>
+  <text>1.加载项目中的图片\n</text>
+  <image mode='true' src='../images/周冬雨.jpg' style='width:200rpx;height:200rpx;'></image>
+  <text>\n2.加载网络上的图片\n</text>
+  <image src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=3821003183,3436651094&fm=179&app=42&f=JPEG?w=121&h=121" style='width:200rpx;height:200rpx;'></image>
+</view>
+
+<!-- input 组件 -->
+<input 
+  placeholder='请输入密码'
+  placeholder-style='color:red;'
+  type='text'
+  value='123456'
+  maxlength='10'
+  bindinput='onbindinput'
+  bindfocus='onbindfocus'
+  bindblur='onbindblur'
+  password='true'
+>
+
+</input>
+<view>你输入的密码是：{{password}}</view>
+
+<!-- button 组件 -->
+<view>
+  <button size='default' type='warn' disabled='true'>登录</button>
+  <button size='mini' plain='true' type='warn'>登录</button>
+  <button size='default' type='warn' loading='true' hover-class='hover-class-style'>loading</button>
+  <button size='mini' type='warn' hover-class='hover-class-style'>注册</button>
+  <!-- 表单 -->
+  <form bindsubmit='onBindSubmit'>
+    <input placeholder='用户名：' name="username"></input>
+    <input placeholder='密码：' name="password" password='true'></input>
+    <button form-type='submit'>注册</button>
+  </form>
+  <image style='width:100rpx;height:100rpx;' src='{{avatarUrl}}'></image>
+  <text style='width:100%;height:100rpx;background-color:greenyellow'>\n{{avatarUrl}}</text>
+  <!-- 获取用户信息 -->
+  <button size='mini' type='warn' open-type='getUserInfo' bindgetuserinfo='onbindgetUserInfo'>getUserInfo</button>
+</view>
