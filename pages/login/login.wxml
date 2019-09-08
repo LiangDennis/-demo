@@ -1,0 +1,31 @@
+<!--pages/login/login.wxml-->
+<view class='view-login'>
+  <!-- 头部 -->
+  <view class='header-style'>
+    <image src='../images/周冬雨.jpg'></image>
+    <text>LiangDennis</text>
+    <text>广州岑村</text>
+  </view>
+
+  <!-- 用户名，密码 -->
+  <form bindsubmit="onbindsubmit">
+    <view class="view-user-psw">
+      <!-- 用户 -->
+      <view class="view-user">
+        <input placeholder="用户名：" placeholder-style="color:#999;" name="username"></input>
+        <image src="../images/周冬雨.jpg"></image>
+      </view>
+      <text>{{namemsg}}</text>
+      <!-- 密码 -->
+      <view class="view-user">
+        <input placeholder="密码：" password="true" placeholder-style="color:#999;" name="password"></input>
+        <image src="../images/周冬雨.jpg"></image>
+      </view>
+      <text>{{pasmsg}}</text>
+    </view>
+    <!-- 登录 -->
+    <button class="btn-login" form-type="submit" hover-class="btn-hover-class-style">登录</button>
+    <!-- 注册 -->
+    <text class="text-reg">注册</text>
+  </form>
+</view>
