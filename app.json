@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/scrollview/scrollview",
     "pages/login/login",
     "pages/components/components",
     "pages/xiecheng/xiecheng",

@@ -1,0 +1,36 @@
+/* pages/scrollview/scrollview.wxss */
+scroll-view {
+  background:#ddd;
+  height: 600rpx;
+}
+scroll-view view {
+  height: 200rpx;
+  background: skyblue;
+  margin-bottom: 10rpx;
+}
+/* //hidden scroll-view滚动条 */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+/* 水平方向滚动 */
+.scroll-view-x {
+  width: 100%;
+  background:red;
+  white-space: nowrap;
+  height: 100rpx;
+}
+.scroll-view-x view {
+  height: 100rpx;
+  width: 200rpx;
+  background:green;
+  display: inline-block;
+}
+
+/* view {
+  height: 200rpx;
+  background: skyblue;
+  margin-bottom: 10rpx;
+} */
