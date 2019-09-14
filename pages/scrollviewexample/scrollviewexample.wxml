@@ -1,5 +1,6 @@
 <!--pages/scrollviewexample/scrollviewexample.wxml-->
 <view class="view-body">
+  <button type="warn" >跳转功能测试</button>
   <scroll-view scroll-y="true" class="scroll-style">
     <block wx:for="{{openEyeHome}}" wx:key="index">
       <view class="view-item" style="background:url({{item.image}}) center center;background-size:cover;">
