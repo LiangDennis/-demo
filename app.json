@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/ditu/h5dingwei",
     "pages/second-use/xiaochengxukuangjia/kuangjia",
     "pages/first-use/navigate/navigate",
     "pages/first-use/scrollviewexample/scrollviewexample",

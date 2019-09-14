@@ -1,0 +1,5 @@
+<!--pages/ditu/h5dingwei.wxml-->
+<button type="primary" bindtap="getMapPosition">获取地理位置</button>
+<text>longitude:{{longitude}}\n</text>
+<text>latitude:{{latitude}}</text>
+<button type="warn"  open-type="openSetting">获取setting</button>
