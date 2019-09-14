@@ -1,0 +1,17 @@
+<!--pages/second-use/xiaochengxukuangjia/kuangjia.wxml-->
+<view style="text-align:center">
+  <text>测试</text>
+  <button bindtap="getUser">获取用户信息</button>
+  <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" type="warn" >请求登录</button>
+  <!-- <text>{{...staff}}</text> -->
+
+  <!-- 模板 -->
+  <template name="staffName">
+    <view>
+      FirstName:{{firstname}},LastName:{{lastname}}
+    </view>
+  </template>
+  <template is="staffName" data="{{...staffA}}"></template>
+  <template is="staffName" data="{{...staffB}}"></template>
+  <template is="staffName" data="{{...staffC}}"></template>
+</view>

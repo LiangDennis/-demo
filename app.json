@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/second-use/xiaochengxukuangjia/kuangjia",
     "pages/first-use/navigate/navigate",
     "pages/first-use/scrollviewexample/scrollviewexample",
     "pages/first-use/scrollview/scrollview",
@@ -12,9 +13,9 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "MyChat",
+    "navigationBarTextStyle": "white"
   },
   "sitemapLocation": "sitemap.json"
 }
