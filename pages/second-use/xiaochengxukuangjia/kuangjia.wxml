@@ -14,4 +14,32 @@
   <template is="staffName" data="{{...staffA}}"></template>
   <template is="staffName" data="{{...staffB}}"></template>
   <template is="staffName" data="{{...staffC}}"></template>
+
+  <!-- WXS（WeiXin Script）是小程序的一套脚本语言，结合 WXML，可以构建出页面的结构。 -->
+  <wxs module="m1">
+    var msg = "helloworld";
+    module.exports.message = msg;
+  </wxs>
+  <view>{{m1.message}}</view>
+  <view>view会自动居中显示吗？</view>
+      <!-- console.log(arr.constructor === "Array"); -->
+  <wxs module="m2">
+    var getMax = function(arr) {
+      console.log(arr.constructor === "Array");
+      if(arr.constructor === "Array") {
+        if(arr.length>0) {
+          arr.sort(function(a,b) {
+            return b-a;
+          });
+          return arr[0];
+        }else {
+          return "数组为空";
+        }
+      }else {
+        return "请检查是否是数组参数";
+      }
+    }
+    module.exports.getMax = getMax;
+  </wxs>
+  <view>{{m2.getMax(array)}}</view>
 </view>

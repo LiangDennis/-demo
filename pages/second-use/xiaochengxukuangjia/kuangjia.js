@@ -7,7 +7,8 @@ Page({
   data: {
     staffA: {firstname:"xixi",lastname:"gigi"},
     staffB: {firstname:"zaza",lastname:"gaga"},
-    staffC: {firstname:"onon",lastname:"enen"}
+    staffC: {firstname:"onon",lastname:"enen"},
+    array:[1,2,3,4,5,9,7,6,10,8]
   },
 
   /**
