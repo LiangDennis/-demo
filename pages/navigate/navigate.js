@@ -26,7 +26,8 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    console.log(wx.getLaunchOptionsSync().path);
+    console.log(this);
   },
 
   /**
@@ -108,7 +109,7 @@ Page({
         });
         break;
       default :
-        alert("error");
+        console.log("error");
         break;
     }
   },
