@@ -1,5 +1,5 @@
 /* pages/xiecheng/xiecheng.wxss */
-@import '../css/mycss.wxss';
+@import '../assets/css/mycss.wxss';
 
 #one {
   background-color: red;

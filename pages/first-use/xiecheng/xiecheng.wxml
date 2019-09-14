@@ -3,7 +3,7 @@
   <view class='item' id='one'>
     <view class='img'>
       <text>酒店\n</text>
-      <image src='../images/周冬雨.jpg' style='width:100rpx;height:100rpx;'></image>
+      <image src='../assets/images/周冬雨.jpg' style='width:100rpx;height:100rpx;'></image>
     </view>
     <view class='text'>
       <view>
@@ -19,7 +19,7 @@
   <view class='item' id='two'>
     <view class='img'>
       <text>酒店\n</text>
-      <image src='../images/周冬雨.jpg' style='width:100rpx;height:100rpx;'></image>
+      <image src='../assets/images/周冬雨.jpg' style='width:100rpx;height:100rpx;'></image>
     </view>
     <view class='text'>
       <view>
@@ -35,7 +35,7 @@
   <view class='item' id='three'>
     <view class='img'>
       <text>酒店\n</text>
-      <image src='../images/周冬雨.jpg' style='width:100rpx;height:100rpx;'></image>
+      <image src='../assets/images/周冬雨.jpg' style='width:100rpx;height:100rpx;'></image>
     </view>
     <view class='text'>
       <view>

@@ -14,7 +14,7 @@
 <!-- image组件 -->
 <view>
   <text>1.加载项目中的图片\n</text>
-  <image mode='true' src='../images/周冬雨.jpg' style='width:200rpx;height:200rpx;'></image>
+  <image mode='true' src='../assets/images/周冬雨.jpg' style='width:200rpx;height:200rpx;'></image>
   <text>\n2.加载网络上的图片\n</text>
   <image src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=3821003183,3436651094&fm=179&app=42&f=JPEG?w=121&h=121" style='width:200rpx;height:200rpx;'></image>
 </view>

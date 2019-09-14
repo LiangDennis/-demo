@@ -2,7 +2,7 @@
 <view class='view-login'>
   <!-- 头部 -->
   <view class='header-style'>
-    <image src='../images/周冬雨.jpg'></image>
+    <image src='../assets/images/周冬雨.jpg'></image>
     <text>LiangDennis</text>
     <text>广州岑村</text>
   </view>
@@ -13,13 +13,13 @@
       <!-- 用户 -->
       <view class="view-user">
         <input placeholder="用户名：" placeholder-style="color:#999;" name="username"></input>
-        <image src="../images/周冬雨.jpg"></image>
+        <image src="../assets/images/周冬雨.jpg"></image>
       </view>
       <text>{{namemsg}}</text>
       <!-- 密码 -->
       <view class="view-user">
         <input placeholder="密码：" password="true" placeholder-style="color:#999;" name="password"></input>
-        <image src="../images/周冬雨.jpg"></image>
+        <image src="../assets/images/周冬雨.jpg"></image>
       </view>
       <text>{{pasmsg}}</text>
     </view>

@@ -1,4 +1,4 @@
-@import "../css/mycss.wxss";
+@import "../assets/css/mycss.wxss";
 /**index.wxss**/
 .userinfo {
   display: flex;

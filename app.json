@@ -1,14 +1,14 @@
 {
   "pages": [
-    "pages/navigate/navigate",
-    "pages/scrollviewexample/scrollviewexample",
-    "pages/scrollview/scrollview",
-    "pages/login/login",
-    "pages/components/components",
-    "pages/xiecheng/xiecheng",
-    "pages/flex/flex",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/first-use/navigate/navigate",
+    "pages/first-use/scrollviewexample/scrollviewexample",
+    "pages/first-use/scrollview/scrollview",
+    "pages/first-use/login/login",
+    "pages/first-use/components/components",
+    "pages/first-use/xiecheng/xiecheng",
+    "pages/first-use/flex/flex",
+    "pages/first-use/index/index",
+    "pages/first-use/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
