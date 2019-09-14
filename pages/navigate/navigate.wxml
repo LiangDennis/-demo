@@ -1,0 +1,20 @@
+<!--pages/navigate/navigate.wxml-->
+<view class="container-navigate">
+  <view class="header">
+    <text>导航页面</text>
+  </view>
+  <view class="content" bindtap="outsite">
+    <view class="navbar">
+      <view catchtap="handleRedirect">
+        <button type="primary" id="1">组件使用\n</button>
+        <button type="info" id="2">flex\n</button>
+        <button type="warn" id="3">index\n</button>
+        <button type="default" id="4">login\n</button>
+        <button type="success" id="5">logs\n</button>
+        <button type="primary" id="6">scrollview\n</button>
+        <button type="warn" id="7">scrollviewexample\n</button>
+        <button type="primary" id="8">携程\n</button>
+      </view>
+    </view>
+    </view>
+</view>

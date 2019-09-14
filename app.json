@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/navigate/navigate",
     "pages/scrollviewexample/scrollviewexample",
     "pages/scrollview/scrollview",
     "pages/login/login",

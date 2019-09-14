@@ -75,7 +75,11 @@ Page({
    */
   onShow: function () {
     console.log("onshow");
-
+    setTimeout(function() {
+      wx.navigateTo({
+        url: '../index/index',
+      })
+    },1000)
   },
 
   /**
