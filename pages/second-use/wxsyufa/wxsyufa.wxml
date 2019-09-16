@@ -1,0 +1,4 @@
+<!--pages/second-use/wxsyufa/wxsyufa.wxml-->
+<view style="text-align:center;">
+  <text>wxs语法参考</text>
+</view>
