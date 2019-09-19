@@ -1,0 +1,10 @@
+<!--pages/second-use/biaoqian/biaoqian.wxml-->
+<view style="text-align:center;">
+  <text>媒体组件</text>
+  <!-- <audio id="audiofirst" src="../assets/1.mp3"></audio> -->
+  <button bindtap="open">open</button>
+  <text style="width:100%;height:80rpx;white-space:wrap;">{{imgurl}}</text>
+  <image src="{{tempfile}}" style=""></image>
+  <image src="{{imgurl}}" style="width:200rpx;height:200rpx;"></image>
+  <image src="https://ss0.baidu.com/73x1bjeh1BF3odCf/it/u=2755303732,1652794948&fm=85&s=CF00F80B974DBB09168C49560300F0B1"></image>
+</view>
